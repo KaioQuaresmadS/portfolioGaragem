@@ -1,0 +1,21 @@
+<header class="container">
+    <div class="menu-container">
+        <ul class="navbar">
+            @for (item of photoPerson(); track item) {
+                <img class="imgProfile"  [src]="item.src" [alt]="item.alt" [title]="item.title" width="100px" height="100px" />
+            }
+            <li class="link-container"><a href="#">Home</a></li>
+            <li class="link-container"><a href="#">Projetos</a></li>
+            <li class="link-container"><a href="#">Oficina</a></li>
+            <li class="link-container"><a href="#">Concluidos</a></li>
+            <li class="link-container"><a href="#">Sobre Mim</a></li>
+            <div class="accordion-header">
+                <ul class="accordion-container">
+                    <li class="line1 line"></li>
+                    <li class="line2 line"></li>
+                    <li class="line3 line"></li>
+                </ul>
+            </div>  
+        </ul>
+    </div>
+</header>
