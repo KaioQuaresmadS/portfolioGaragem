@@ -1,0 +1,62 @@
+:host{
+    main{
+        display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-left: 50px;
+            align-items: center;
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 88px;
+            flex-direction: column;
+
+        }
+        .sub-container{
+            flex-direction: column;
+            display: flex;
+            text-align: center;
+            background-color: var(--grey-010);
+            box-shadow: -5px 2px 3px var(--black);
+            padding: 0 20px;
+            border-radius: 30px;
+            width: 730px;
+            height: 550px;
+
+
+            h2{
+                font-size: 35px;
+            }
+            p{
+                font-size: 25px;
+                width: 560px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'IBM Plex Sans Devanagari';
+            }   
+        }
+        .btn-primary {
+
+            background-color: var(--grey);
+            margin-top: -20px;
+            font-weight: bold;
+            border-radius: 20px;
+            border: none;
+            box-shadow: -5px 2px 3px var(--black);
+
+            &:hover{
+                background-color: var(--black-001);
+                color: var(--white);
+                font-family: 'Roboto';
+                transition: .5s;
+                box-shadow: inset -5px 2px 3px var(--grey);
+                border: 1px solid black;
+                border-bottom: 1px solid black;
+            }
+        }
+
+    }
+}

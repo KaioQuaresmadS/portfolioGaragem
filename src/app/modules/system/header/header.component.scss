@@ -1,0 +1,26 @@
+:host {
+    header {
+
+        margin: 10px;
+
+        .navbar{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 130px;
+            margin-top: 40px;
+            margin-left: 200px;
+
+            .imgProfile {
+                border-radius: 50%;
+                
+            }
+            
+            a{
+                font-size: 20px;
+                font-family: 'Arimo';
+            }
+        }
+    }
+}

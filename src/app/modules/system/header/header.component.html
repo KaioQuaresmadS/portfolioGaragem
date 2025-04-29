@@ -1,5 +1,4 @@
-<header class="container">
-    <div class="menu-container">
+<header>
         <ul class="navbar">
             @for (item of photoPerson(); track item) {
                 <img class="imgProfile"  [src]="item.src" [alt]="item.alt" [title]="item.title" width="100px" height="100px" />
@@ -17,5 +16,4 @@
                 </ul>
             </div>  
         </ul>
-    </div>
 </header>
