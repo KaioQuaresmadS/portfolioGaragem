@@ -1,10 +1,13 @@
+html, body{
+    display: block;
+    background: none !important;
+}
+
 :host {
-    background: var(--background--primary-010);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../../../assets/img/civic.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    display: block;
-
-    body{
-
-    }
 }
