@@ -30,15 +30,23 @@ html, body{
             }
         }
         .btn-left{
-            width: 60px;
-            position: absolute;
-            left: 10px;
-            margin: 300px 0px;
+            img{
+                width: 60px;
+                position: absolute;
+                left: 10px;
+                margin: 300px 0px;
+                cursor: pointer;
+            }
+
         }
         .btn-right{
+            img{
                 width: 60px;
                 position: absolute;
                 right: 10px;
                 margin: 300px 0px;
+                cursor: pointer;
+            }
+
         }
     }
