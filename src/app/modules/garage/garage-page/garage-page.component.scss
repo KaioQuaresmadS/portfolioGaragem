@@ -1,13 +1,44 @@
 html, body{
     display: block;
     background: none !important;
+    height: 100%;
 }
 
 :host {
-    display: flex;
+
+    .container{
     height: 100%;
-    width: 100%;
-    background-image: url('../../../../assets/img/civic.webp');
+    display: block;
+    background-image: url('../../../../assets/img/civic-2.png');
     background-size: cover;
     background-repeat: no-repeat;
-}
+    background-position-y: -250px;
+    overflow: hidden;
+    text-align: center;
+    }
+
+    .sub-container{
+        margin: 20px 40%;
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(4px);
+        border-radius: 8px;
+        padding: 12px 24px;
+
+            p{
+                font-size: 20px;
+                font-family: 'Roboto';
+            }
+        }
+        .btn-left{
+            width: 60px;
+            position: absolute;
+            left: 10px;
+            margin: 300px 0px;
+        }
+        .btn-right{
+                width: 60px;
+                position: absolute;
+                right: 10px;
+                margin: 300px 0px;
+        }
+    }
