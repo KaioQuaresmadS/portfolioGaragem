@@ -91,3 +91,9 @@ html, body{
         to { transform: translateX(5px); }
       }
       
+      @media (max-width: 1450px) {
+        
+        .civic{
+            margin-top: -240px !important;
+        }
+      }
