@@ -7,7 +7,7 @@ html, body{
 :host {
 
     .container{
-    height: 100vh;
+    min-height: 100vh;
     display: block;
     text-align: center;
     overflow: hidden;
@@ -49,5 +49,45 @@ html, body{
         .civic{
             width: 100%;
             margin-top: -350px;
+            cursor: pointer;
         }
     }
+
+    .exit-button {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-decoration: none;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 1000;
+      }
+      
+      .exit-sign {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background-color: #55952A;
+        padding: 6px 12px;
+        border: 2px solid #ff4444;
+        border-radius: 8px;
+        box-shadow: 0 0 10px red;
+      }
+      
+      .exit-sign img {
+        height: 24px;
+      }
+      
+      .arrow-exit{
+        height: 50px !important;
+      }
+      .runner {
+        animation: run 0.5s steps(4) infinite;
+      }
+      
+      @keyframes run {
+        from { transform: translateX(0); }
+        to { transform: translateX(5px); }
+      }
+      

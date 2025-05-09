@@ -18,6 +18,7 @@
     border-radius: 20px;
     border: none;
     box-shadow: -5px 2px 3px var(--black);
+    outline: none !important;
 
     &:hover{
         background-color: var(--black-001);
@@ -27,5 +28,6 @@
         box-shadow: inset -5px 2px 3px var(--grey);
         border: 1px solid black;
         border-bottom: 1px solid black;
+        outline: none !important;
     }
 }
