@@ -5,6 +5,7 @@ import { GaragePageComponent } from '../../garage/garage-page/garage-page.compon
 
 @Component({
   selector: 'app-page',
+  standalone: true,
   imports: [
     HeaderComponent,
     HeroComponent

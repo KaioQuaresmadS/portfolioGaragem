@@ -3,10 +3,29 @@
 
     width: 300px;
     height: 67px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Arimo';
     font-size: 30px;
+}
+
+.btn-primary {
+
+    background-color: var(--grey);
+    margin-top: -20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -5px 2px 3px var(--black);
+
+    &:hover{
+        background-color: var(--black-001);
+        color: var(--white);
+        font-family: 'Roboto';
+        transition: .5s;
+        box-shadow: inset -5px 2px 3px var(--grey);
+        border: 1px solid black;
+        border-bottom: 1px solid black;
+    }
 }
